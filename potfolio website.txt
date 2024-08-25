@@ -1,0 +1,8 @@
+pages -> home about tech project contact blogs
+
+home -> nav  little description with name and image animation
+about -> description and skills
+tech -> domain and their charts and tech stack
+project -> projects cards
+contact -> form and links 
+blogs -> blog cards

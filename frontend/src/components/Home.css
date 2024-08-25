@@ -1,0 +1,35 @@
+.home-container{
+    background-color: aqua;
+    width: 100vw;
+    height: calc(100vh - 60px); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.name-section{
+    width: 50%;
+}
+.name-box{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    font-size: 20px;
+    color: rgb(232, 109, 109);
+}
+.image-section{
+    width: 50%;
+}
+
+
