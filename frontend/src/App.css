@@ -1,5 +1,9 @@
 .main{
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../background.jpg);
+  
+  background-image: url(../Web_Photo_Editor.jpg);
+overflow: hidden;
+background-size: contain;
+
+display: flex;
+flex-direction: column;
 }

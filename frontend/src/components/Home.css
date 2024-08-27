@@ -1,11 +1,11 @@
 .home-container{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100vw;
     height: calc(100vh - 60px); ;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: hidden;
 
 }
 .name-section{
@@ -30,6 +30,94 @@
 }
 .image-section{
     width: 50%;
+    overflow: hidden;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 
+.c{
+    border : 1px solid red;
+    aspect-ratio: 1/1;
+    position: absolute;
+    border-radius: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.img{
+    /* aspect-ratio: 1/1; */
+    margin-left: 30px;
+    height: 500px;
+    /* position: absolute; */
+    z-index: 5;
+    transform: translateY(120px);
+
+}
+.c1{
+    height: 300px;
+    z-index: 1;
+    animation: spin 5s linear infinite;
+}
+.c2{
+    height: 450px;
+    z-index: 2;
+    animation: spin 7s linear infinite;
+}
+.c3{
+    height: 600px;
+    z-index: 3;
+    animation: spin 9s linear infinite;
+    border-radius: 100%;
+
+}
+.planet{
+  aspect-ratio: 1/1;
+  height: 50px;
+  background-color: red;
+  border-radius: 100%;
+  border: 1px solid red;
+  position: relative;
+  /* transform: translateX(50px); */
+}
+.c11{
+    transform: translateX(50px);
+}
+.c21{
+    
+    transform: translateX(100px);
+}
+.c22{
+    float: right;
+    margin-top: 70%;
+    translate: -90px 30px;
+}
+.c31{
+    margin-left: 50%;
+    translate: 30px -20px;
+}
+.c32{
+    float: right;
+    translate: -30px -80px;
+    margin-top: 80%;
+    
+}
+.c33{
+    margin-top: 60%;
+    translate: 10px 0px;
+
+}
